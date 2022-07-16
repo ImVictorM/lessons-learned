@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-size: 20px;
+  color: rgb(9, 9, 82);
+  line-height: 25px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+#container-conteudo {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  background-color: rgb(235, 235, 235);
+  height: 100%;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(4, 4, 43);
+  color: white;
+  height: 5%;
+  z-index: 10;
+
+  /* solução para não bugar com width */
+  right: 0;
+  left: 0;
+}
+
+#cabecalho #titulo {
+  text-align: center;
+  margin: 10px;
+  font-size: 35px;
+}
+
+#minha_foto {
+  width: 25%;
+  border-radius: 15%;
+}
+
+#container-me {
+  text-align: center;
+  padding: 30px;
+}
+
+#rodape {
+  text-align: center;
+  background-color: rgb(4, 4, 43);
+  color: white;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 30px;
+  padding: 10px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+#rodape p {
+  margin: 0;
+  line-height: 50px;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  border: 2px solid rgb(153, 153, 153);
+  font-size: 40px;
+  width: 400px;
+  height: 40px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  float: left;
+  margin: 30px;
+}
+
+.lado-direito {
+  width: 40%;
+  float: right;
+  margin: 30px;
+}
+
+#container-listas {
+  clear: both;
+  text-align: center;
+  padding: 30px;
+}
+
+ul , ol {
+
+  /* reset nas listas */
+  padding: 0;
+
+  /* estilo */
+  list-style-position: inside;
+  width: 40%;
+  margin: auto;
+  text-align: start;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: rgb(107, 24, 184);
+}
